@@ -1,0 +1,36 @@
+.idea
+.php_cs.cache
+phpunit.xml
+/app/config/parameters.yml
+/bin/
+
+# composer vendor dir
+/vendor/
+
+# netbeans project files
+nbproject
+
+# eclipse project files
+.buildpath
+.project
+.settings/
+.metadata/
+.sonarlint/
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
