@@ -31,7 +31,7 @@ trait Render
         $renderLayout = function (string $view, array $parameters = []) use ($rootViewPath, $path) {
             $parameters['isAuth'] = (new User(new Session()))->isUserLogged();
             extract($parameters, EXTR_SKIP);
-            
+
             try {
                 include_once str_replace('/', DIRECTORY_SEPARATOR, $rootViewPath . $view);
             } catch (\Throwable $e) {

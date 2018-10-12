@@ -34,3 +34,6 @@ phpunit.phar
 # vagrant runtime
 /.vagrant
 
+# tmp files LibreOffice
+/*/.~lock.*
+web-app-architecture-01

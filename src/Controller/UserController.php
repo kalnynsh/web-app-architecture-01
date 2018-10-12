@@ -30,7 +30,11 @@ class UserController
             );
 
             if ($isAuthenticationSuccess) {
-                return $this->render('user/authentication_success.html.php', ['user' => $user->getSessionUser()]);
+                return $this->render(
+                    'user/authentication_success.html.php',
+                    [
+                        'user' => $user->getSessionUser()
+                    ]);
             } else {
                 $error = 'Неправильный логин и/или пароль';
             }
