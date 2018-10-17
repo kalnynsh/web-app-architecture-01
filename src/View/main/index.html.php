@@ -1,6 +1,6 @@
 <?php
 
-/** @var \Model\Entity\Product[] $productList */
+/** @var string $body */
 $body = function () {
     echo <<<EOL
 <p>Добро пожаловать в наш интернет-магазин on-line курсов!</p>
